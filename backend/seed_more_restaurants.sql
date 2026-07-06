@@ -1,9 +1,9 @@
 USE eatxpress;
 
 INSERT IGNORE INTO restaurants (slug, name, cuisine, rating, eta_mins, image_url) VALUES
-('dominos', "Dominos Pizza", 'Pizzas, Italian, Fast Food', 4.0, 25, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/960px-Dominos_pizza_logo.svg.png?_=20111115123340'),
+('dominos', 'Dominos Pizza', 'Pizzas, Italian, Fast Food', 4.0, 25, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/960px-Dominos_pizza_logo.svg.png?_=20111115123340'),
 ('pizza-hut', 'Pizza Hut', 'Italian, Pizzas, Beverages, Fast Food', 3.8, 35, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pizza_hut_logo_international.svg/1280px-Pizza_hut_logo_international.svg.png'),
-('mcdonalds', "McDonalds", 'Burger, Fast Food, Desserts, Beverages', 4.2, 33, 'https://static.vecteezy.com/system/resources/thumbnails/013/948/539/small/mcdonald-s-logo-on-transparent-white-background-free-vector.jpg'),
+('mcdonalds', 'McDonalds', 'Burger, Fast Food, Desserts, Beverages', 4.2, 33, 'https://static.vecteezy.com/system/resources/thumbnails/013/948/539/small/mcdonald-s-logo-on-transparent-white-background-free-vector.jpg'),
 ('biryani-blues', 'Biryani Blues', 'Hyderabadi Biryani, Kebab, North Indian', 4.2, 32, 'https://play-lh.googleusercontent.com/N0DMBpWuXdz9lJ3Fjqm_IXT5lT1xmRNcf4h2QghK0fpXcdig-DwBH5pHwLdtz0UYlwSxHefdYyrF9gqnztF5Xg'),
 ('meghana-foods', 'Meghana Foods', 'Andhra, Biryani, South Indian', 4.4, 30, 'https://pbs.twimg.com/profile_images/664417544791461888/Pmw_svcp_400x400.png'),
 ('nandana-palace', 'Nandana Palace', 'Biryani, Andhra, North Indian, Chinese, Desserts', 4.2, 34, 'https://lh3.googleusercontent.com/w3vSfc0mQE34mCBMLWW0mJUe1h-sRukSyRPo5EU7xOC1MifN8GwHB-ldCODS8PSRUnOfNdx0O0T6B_eEMstJgxO6zqD84QzMIXT8AihZ'),
