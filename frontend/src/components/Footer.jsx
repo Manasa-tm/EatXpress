@@ -16,13 +16,13 @@ export default function Footer() {
           </p>
           <div className="footer-socials">
             <a href="#" aria-label="Instagram">
-              <img src="/images/insta.png" alt="Instagram" />
+              <img src="https://unblast.com/wp-content/uploads/2025/07/instagram-logo-colored.jpg" alt="Instagram" />
             </a>
             <a href="#" aria-label="Threads">
-              <img src="/images/threads.png" alt="Threads" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Threads_%28app%29.png" alt="Threads" />
             </a>
             <a href="#" aria-label="Facebook">
-              <img src="/images/fb.png" alt="Facebook" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4vO2Y-AGLtKgHyDDkLZFFm20amIgrEs2sCVu4K7x3g&s=10" alt="Facebook" />
             </a>
           </div>
         </div>
