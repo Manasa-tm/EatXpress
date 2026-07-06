@@ -1,8 +1,6 @@
 USE eatxpress;
 
 INSERT IGNORE INTO restaurants (slug, name, cuisine, rating, eta_mins, image_url) VALUES
-('burger-king', 'Burger King', 'Burgers, Fast Food, Beverages, Desserts', 3.9, 28, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvWz3a1wDTQL-XKR7m8WXd3Dxp7JszBC-BFwdsHt5oGxJDBhwtQ3bISJ8&s=10'),
-('kfc', 'KFC', 'Fast Food, Chicken, Beverages, Desserts', 4.0, 30, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz1ieA05_y1ny4Qu--0wQmXb7TSEdOt0w3iyNJ6tPtODT0pub9DjHVZR0&s=10'),
 ('dominos', "Domino's Pizza", 'Pizzas, Italian, Fast Food', 4.0, 25, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/960px-Dominos_pizza_logo.svg.png?_=20111115123340'),
 ('pizza-hut', 'Pizza Hut', 'Italian, Pizzas, Beverages, Fast Food', 3.8, 35, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pizza_hut_logo_international.svg/1280px-Pizza_hut_logo_international.svg.png'),
 ('mcdonalds', "McDonald's", 'Burger, Fast Food, Desserts, Beverages', 4.2, 33, 'https://static.vecteezy.com/system/resources/thumbnails/013/948/539/small/mcdonald-s-logo-on-transparent-white-background-free-vector.jpg'),
