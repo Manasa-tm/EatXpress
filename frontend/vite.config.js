@@ -8,5 +8,5 @@ export default defineConfig({
       '/api': 'http://localhost:5000',
     },
   },
-  base: '/eatxpress/',
+  base: '/EatXpress/',
 });
