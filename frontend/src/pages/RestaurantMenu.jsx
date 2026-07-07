@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { menuApi } from '../api/api';
 import MenuCard from '../components/MenuCard';
+import { MenuCardSkeleton } from '../components/Skeletons';
 
 export default function RestaurantMenu() {
   const { slug } = useParams();
@@ -18,7 +19,19 @@ export default function RestaurantMenu() {
       .finally(() => setLoading(false));
   }, [slug]);
 
-  if (loading) return <p style={{ textAlign: 'center', padding: '60px', color: 'var(--muted)' }}>Loading menu…</p>;
+  if (loading) {
+    return (
+      <>
+        <section className="hero" style={{ paddingBottom: 10 }} />
+        <div className="menu">
+          {Array.from({ length: 8 }).map((_, i) => (
+            <MenuCardSkeleton key={i} />
+          ))}
+        </div>
+      </>
+    );
+  }
+
   if (error) return <p style={{ textAlign: 'center', padding: '60px', color: 'var(--coral)' }}>{error}</p>;
 
   return (

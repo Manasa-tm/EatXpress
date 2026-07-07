@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { menuApi } from '../api/api';
 import TrainBanner from '../components/TrainBanner';
+import { RestaurantCardSkeleton } from '../components/Skeletons';
 
 // A handful of cuisine tags pulled from the seed data, used to build filter chips.
 const CUISINE_TAGS = [
@@ -226,8 +227,12 @@ export default function Home() {
         )}
 
         {loading ? (
-          <p style={{ textAlign: 'center', color: 'var(--muted)', padding: '40px 0' }}>Loading restaurants…</p>
-        ) : filtered.length === 0 ? (
+  <section className="restaurant-container">
+    {Array.from({ length: 8 }).map((_, i) => (
+      <RestaurantCardSkeleton key={i} />
+    ))}
+  </section>
+) : filtered.length === 0 ? (
           <p style={{ textAlign: 'center', color: 'var(--muted)', padding: '40px 0' }}>
             No restaurants match "{query || activeTag}". Try a different search.
           </p>
