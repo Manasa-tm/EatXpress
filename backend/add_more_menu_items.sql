@@ -1,4 +1,4 @@
-USE eatxpress;
+USE defaultdb;
 
 -- Tops up every restaurant to at least 10 menu items.
 -- Safe to re-run: relies on the unique_menu_item key

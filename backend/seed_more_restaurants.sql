@@ -1,4 +1,4 @@
-USE eatxpress;
+USE defaultdb;
 
 INSERT IGNORE INTO restaurants (slug, name, cuisine, rating, eta_mins, image_url) VALUES
 ('dominos', 'Dominos Pizza', 'Pizzas, Italian, Fast Food', 4.0, 25, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/960px-Dominos_pizza_logo.svg.png?_=20111115123340'),
